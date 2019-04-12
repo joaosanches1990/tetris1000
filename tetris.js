@@ -244,6 +244,8 @@ document.addEventListener('keydown', event =>{
     playerRotate(-1);
   }else if (event.keyCode === 87) {
     playerRotate(1);
+  }else if (event.keyCode === 38) {
+    playerRotate(1);
   }
 });
 playerReset();
